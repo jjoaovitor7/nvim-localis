@@ -1,16 +1,24 @@
 # Neovim shortcuts
-**yy**       - copy line
+**yy**         - copy line
 
-**dd**       - cut line
+**dd**         - cut line
 
-**p**        - paste
+**p**          - paste
 
-**yw**       - copy word
+**yw**         - copy word
 
-**v[←↑→↓]y** - copy range
+**v[←↑→↓]y**   - copy range
 
-**v[←↑→↓]d** - cut range
+**v[←↑→↓]d**   - cut range
 
-**u**        - undo
+**u**          - undo
 
-**[space]e** - NvimTreeToggle
+**[space]e**   - NvimTreeToggle
+
+**[space]b**   - new buffer / tab
+
+**[space]x**   - close buffer / tab
+
+**[tab]**      - switch tabs
+
+**[space]/**  - toggle comment
