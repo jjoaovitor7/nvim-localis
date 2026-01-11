@@ -21,4 +21,8 @@
 
 **[tab]**      - switch tabs
 
-**[space]/**  - toggle comment
+**[space]/**   - toggle comment
+
+**a**          - new file
+
+**d**          - rm file
