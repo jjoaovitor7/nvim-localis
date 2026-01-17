@@ -26,3 +26,13 @@
 **a**          - new file
 
 **d**          - rm file
+
+**[ctrl]w↑**   - navigate to up window
+
+**[ctrl]w↓**   - navigate to down window
+
+**[ctrl]w←**   - navigate to left window
+
+**[ctrl]w→**   - navigate to right window
+
+**[ctrl]\n**   - unfocus terminal window
