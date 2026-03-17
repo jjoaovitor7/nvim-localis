@@ -11,9 +11,9 @@
 
 **v[←↑→↓]d**   - cut range
 
-**u**          - undo
+**u**          - undo / rename
 
-**[space]e**   - NvimTreeToggle
+**[ctrl]n**    - NvimTreeToggle
 
 **[space]b**   - new buffer / tab
 
