@@ -8,6 +8,11 @@ git init
 ```bash
 git config user.name "<name>"
 git config user.email "<email>"
+
+# for shared environments:
+git -c user.name="<name>" \
+    -c user.email="<email>" \
+    commit -m "<message>"
 ```
 
 ### Add / Rm all files to / from staged area
