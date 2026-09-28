@@ -59,3 +59,13 @@ git pull <remote-alias> <branch | HEAD> --rebase
 git push <remote-alias> <branch | HEAD>
 ```
 
+### GPG Config.
+```bash
+mkdir -p <gpgdir> && chmod 700 <gpgdir>
+gpg --homedir <gpgdir> -full-generate-key
+gpg --homedir <gpgdir>--list-secret-keys --keyid-format LONG
+gpg --homedir <gpgdir> --armor --export <mail@mail.com>
+GNUPGHOME="<gpgdir>" git config --global user.signingkey <mail@mail.com>
+# git config --global commit.gpgsign true
+# or git commit -S -m "tag: example commit."
+```
